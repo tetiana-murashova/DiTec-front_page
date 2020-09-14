@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     let position = $(this).scrollTop();
-    if(position >= 780) {
+    if(position >= 650) {
       $('.camera-img').addClass('fromLeft');
       $('.mission-text').addClass('fromRight');
       $('.gallery').addClass('change');
