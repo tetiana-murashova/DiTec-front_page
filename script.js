@@ -7,13 +7,12 @@ $(document).ready(function() {
   $(window).scroll(function() {
     let position = $(this).scrollTop();
     if(position >= 650) {
-      $('.camera-img').addClass('fromLeft');
+      $('.comp-img').addClass('fromLeft');
       $('.mission-text').addClass('fromRight');
-      $('.gallery').addClass('change');
+      $('.my').addClass('opasityadd');
     } else {
-      $('.camera-img').removeClass('fromLeft');
+      $('.comp-img').removeClass('fromLeft');
       $('.mission-text').removeClass('fromRight');
-      $('.gallery').removeClass('change');
     }
   });
 
