@@ -145,3 +145,9 @@ header {
   object-fit: cover;
 }
 
+.card {
+  position: relative;
+  box-shadow: 5px 15px 50px #aaa;
+  margin-top: 300px;
+  overflow: hidden;
+}
