@@ -66,7 +66,14 @@ header {
   width: 80%;
 }
 
+@media(max-width: 400px) {
+  .banner {
+    width: 100%;
+  }
+}
+
 .banner-text {
+
   animation-name: anim;
   animation-duration: 2s;
 }
@@ -86,6 +93,12 @@ header {
 /* end of header */
 
 /* specializing in */
+
+.slow-ani > * {
+  animation-duration:5s;
+}
+
+
 .specializing {
   background: rgb(24, 21, 12);
 }
